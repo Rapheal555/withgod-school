@@ -6,16 +6,17 @@ export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { src: "/images/gallery1.jpg", alt: "Kids Playing in the Playground" },
-    { src: "/images/gallery2.jpg", alt: "Classroom Activity" },
-    { src: "/images/gallery3.jpg", alt: "Art and Craft Session" },
-    { src: "/images/gallery4.jpg", alt: "School Assembly" },
-    { src: "/images/gallery5.jpg", alt: "Sports Day" },
-    { src: "/images/gallery6.jpg", alt: "Science Fair" },
-    { src: "/images/gallery7.jpg", alt: "Music Class" },
-    { src: "/images/gallery8.jpg", alt: "Graduation Ceremony" },
+    // { src: "/images/liberty.jpg", alt: "Kids Playing" },
+    { src: "/images/fishery-2023.jpg", alt: "" },
+    { src: "/images/ciltural-center-2022.jpg", alt: "" },
+    { src: "/images/nihort.jpg", alt: "" },
+    { src: "/images/liberty.jpg", alt: "" },
+    { src: "/images/tribune-2019.jpg", alt: "Classroom" },
+    { src: "/images/seven-up-2018.jpg", alt: "School Building" },
+    { src: "/images/amusement-park-2016.jpg", alt: "School Uniform" },
+    { src: "/images/evans-2014.jpg", alt: "3D Anime Character" },
+    { src: "/images/airport-2010.jpg", alt: "Art Class" },
   ];
-
   const openImage = (src:any) => {
     setSelectedImage(src);
   };
