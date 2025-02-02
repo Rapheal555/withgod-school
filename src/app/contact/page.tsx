@@ -182,7 +182,7 @@ export default function ContactPage() {
           {/* Map Section */}
           <div className="mt-16 bg-white rounded-xl shadow-md overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d435.4651026411142!2d3.8895499813342624!3d7.419319606825013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738519154235!5m2!1sen!2sng"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d532.2631265421571!2d3.8895684584565138!3d7.4195755577756515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738521290093!5m2!1sen!2sng"
               width="100%"
               height="450"
               style={{ border: 0 }}
