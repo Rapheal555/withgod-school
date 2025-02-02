@@ -73,11 +73,15 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <span className="text-blue-400 mr-2">📞</span>
-                <p className="text-blue-200">+234 123 456 7890</p>
+                <a href="tel:+2348063025700">
+                <p className="text-blue-200">+234 806 302 5700</p>
+                </a>
               </li>
               <li className="flex items-center">
                 <span className="text-blue-400 mr-2">📧</span>
-                <p className="text-blue-200">info@withgodschool.com</p>
+                <a href="mailto:adebisi.florence00@gmail.com">
+                  <p className="text-blue-200">adebisi.florence00@gmail.com</p>
+                </a>
               </li>
             </ul>
           </div>

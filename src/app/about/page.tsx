@@ -48,7 +48,7 @@ export default function AboutPage() {
         </div>
       </section>
       {/* Add after Story Section */}
-      <div className="mt-12">
+      {/* <div className="mt-12">
         <h3 className="text-2xl text-center font-bold text-blue-900 mb-6">Our Journey</h3>
         <div className="flex justify-center lg:flex-row flex-col space-x-8">
           {[
@@ -64,7 +64,7 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       {/* Values Section */}
       <section className="py-20 bg-blue-50">
         <div className="container mx-auto px-4">
@@ -104,7 +104,7 @@ export default function AboutPage() {
         </div>
       </section>
       {/* Team Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-blue-900 mb-12">
             Meet Our Teachers
@@ -150,7 +150,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

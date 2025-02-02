@@ -17,8 +17,6 @@ export default function ContactPage() {
 
   return (
     <div>
-     
-
       {/* Hero Section */}
       <section className="bg-blue-100 py-24">
         <div className="container mx-auto px-4 text-center">
@@ -33,7 +31,7 @@ export default function ContactPage() {
 
       {/* Contact Content */}
       <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 overflow-hidden">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="space-y-8">
@@ -50,21 +48,21 @@ export default function ContactPage() {
                     Oyo State, Nigeria
                   </p>
                   <div className="flex items-center">
-                    <span className="text-2xl mr-3">📞</span>
+                    <span className="lg:text-2xl text-xl mr-3">📞</span>
                     <a
-                      href="tel:+2341234567890"
-                      className="text-blue-800 text-lg hover:text-blue-600"
+                      href="tel:+2348063025700"
+                      className="text-blue-800 lg:text-lg text-sm hover:text-blue-600"
                     >
-                      +234 123 456 7890
+                      +234 806 302 5700
                     </a>
                   </div>
                   <div className="flex items-center">
-                    <span className="text-2xl mr-3">📧</span>
+                    <span className="lg:text-2xl text-xl mr-3">📧</span>
                     <a
-                      href="mailto:info@withgodschool.com"
-                      className="text-blue-800 text-lg hover:text-blue-600"
+                      href="mailto:adebisi.florence00@gmail.com"
+                      className="text-blue-800 lg:text-lg text-sm hover:text-blue-600"
                     >
-                      info@withgodschool.com
+                      adebisi.florence00@gmail.com
                     </a>
                   </div>
                 </div>
@@ -184,7 +182,7 @@ export default function ContactPage() {
           {/* Map Section */}
           <div className="mt-16 bg-white rounded-xl shadow-md overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.09150317559!2d3.896385815355766!3d7.544240812692796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzInMzkuMyJOIDPCsDU0JzAxLjQiRQ!5e0!3m2!1sen!2sng!4v1624456789012!5m2!1sen!2sng"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d435.4651026411142!2d3.8895499813342624!3d7.419319606825013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738519154235!5m2!1sen!2sng"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -214,8 +212,6 @@ export default function ContactPage() {
           </a>
         </div>
       </section>
-
-   
     </div>
   );
 }
