@@ -3,8 +3,6 @@
 export default function ProgramsPage() {
   return (
     <div>
-     
-
       {/* Hero Section */}
       <section className="bg-blue-100 py-24">
         <div className="container mx-auto px-4 text-center">
@@ -85,6 +83,58 @@ export default function ProgramsPage() {
         </div>
       </section>
 
+      {/* Program Comparison Table */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center text-blue-900 mb-12">
+            Program Comparison
+          </h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-blue-200">
+              <thead>
+                <tr className="bg-blue-600 text-white">
+                  <th className="py-3 px-4 text-left">Program</th>
+                  <th className="py-3 px-4 text-left">Age Group</th>
+                  <th className="py-3 px-4 text-left">Focus Areas</th>
+                  <th className="py-3 px-4 text-left">Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  {
+                    program: "Nursery",
+                    age: "2-4 years",
+                    focus: "Play-based learning, social skills",
+                    hours: "8:00 AM - 12:00 PM",
+                  },
+                  {
+                    program: "Primary",
+                    age: "5-11 years",
+                    focus: "Core subjects, creative arts",
+                    hours: "8:00 AM - 2:00 PM",
+                  },
+                  {
+                    program: "After-School",
+                    age: "5-11 years",
+                    focus: "Homework help, recreational activities",
+                    hours: "2:00 PM - 5:00 PM",
+                  },
+                ].map((row, index) => (
+                  <tr key={index} className="border-b border-blue-200">
+                    <td className="py-3 px-4 text-blue-900 font-semibold">
+                      {row.program}
+                    </td>
+                    <td className="py-3 px-4 text-blue-800">{row.age}</td>
+                    <td className="py-3 px-4 text-blue-800">{row.focus}</td>
+                    <td className="py-3 px-4 text-blue-800">{row.hours}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section className="py-20 bg-blue-50">
         <div className="container mx-auto px-4">
@@ -155,8 +205,6 @@ export default function ProgramsPage() {
           </a>
         </div>
       </section>
-
-      
     </div>
   );
 }

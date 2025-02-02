@@ -5,12 +5,16 @@ export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { src: "/images/kids-playing.jpg", alt: "Kids Playing" },
-    { src: "/images/classroom.jpg", alt: "Classroom" },
-    { src: "/images/school-building.jpg", alt: "School Building" },
-    { src: "/images/uniform-blue.jpg", alt: "School Uniform" },
-    { src: "/images/3d-anime-character.png", alt: "3D Anime Character" },
-    { src: "/images/art-class.jpg", alt: "Art Class" },
+    // { src: "/images/liberty.jpg", alt: "Kids Playing" },
+    { src: "/images/fishery-2023.jpg", alt: "" },
+    { src: "/images/ciltural-center-2022.jpg", alt: "" },
+    { src: "/images/nihort.jpg", alt: "" },
+    { src: "/images/liberty.jpg", alt: "" },
+    { src: "/images/tribune-2019.jpg", alt: "Classroom" },
+    { src: "/images/seven-up-2018.jpg", alt: "School Building" },
+    { src: "/images/amusement-park-2016.jpg", alt: "School Uniform" },
+    { src: "/images/evans-2014.jpg", alt: "3D Anime Character" },
+    { src: "/images/airport-2010.jpg", alt: "Art Class" },
   ];
 
   const openImage = (src: any) => {
